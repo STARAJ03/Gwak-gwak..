@@ -32,7 +32,7 @@ if not os.path.exists("downloads"):
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text(f"**Hello , 𝐒𝗍ⱺ𝗅𝖾𐓣 𝐇𝖺𝗉𝗉𝗂𐓣𝖾𝗌𝗌💜\n\nPress /TXT**")
+    editable = await m.reply_text(f"**Hello , 𝐒𝗍ar AJ💜\n\nPress /TXT**")
 
 @bot.on_message(filters.command("stop"))
 async def restart_handler(_, m):
@@ -42,7 +42,7 @@ async def restart_handler(_, m):
 @bot.on_message(filters.command(["TXT"]))
 async def account_login(bot: Client, m: Message):
     try:
-        editable = await m.reply_text(f"**Hey , 𝐒𝗍ⱺ𝗅𝖾𐓣 𝐇𝖺𝗉𝗉𝗂𐓣𝖾𝗌𝗌💜\n\n𝐒𝖾𝗇𝖽 𝐓𝗑𝗍 𝐅𝗂𝗅𝖾 📁**")
+        editable = await m.reply_text(f"**Hey , 𝐒𝗍ar AJ💜\n\n𝐒𝖾𝗇𝖽 𝐓𝗑𝗍 𝐅𝗂𝗅𝖾 📁**")
         input: Message = await bot.listen(editable.chat.id)
         x = await input.download()
         await input.delete(True)
