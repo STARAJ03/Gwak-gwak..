@@ -23,9 +23,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import m3u8
 
 bot = Client("bot",
-             bot_token= "7292523182:AAF5j-wZy4Ugq3LD3Y3tvXpz7BT5aSB2OYw",
-             api_id= 29376235,
-             api_hash= "d7c10b0e14c1355dde0fec9d37c19b54")
+             bot_token= "8097096084:AAEzqRI-A22btXsMG3FKj3LGCUVzlG43wI4",
+             api_id= 27765349,
+             api_hash= "9df1f705c8047ac0d723b29069a1332b")
 
 if not os.path.exists("downloads"):
     os.makedirs("downloads")
