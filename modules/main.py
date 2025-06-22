@@ -377,7 +377,7 @@ async def account_login(bot: Client, m: Message):
                             time.sleep(5)
                             continue
                     else:
-                        Show = f"**🚀🅓ⱺ𝒘𝒏𝒍𝒐𝒂𝒅𝒊𝒏𝒈🚀 »**\n\n**⚓️Name »** `{name}`\n\n🖼**Quality** » `{raw_text2}`\n\n**Bot Developed by 𝐒𝗍ⱺ𝗅𝖾𐓣 𝐇𝖺𝗉𝗉𝗂𐓣𝖾𝗌𝗌❤️**"
+                        Show = f"**🚀🅓ⱺ𝒘𝒏𝒍𝒐𝒂𝒅𝒊𝒏𝒈🚀 »**\n\n**⚓️Name »** `{name}`\n\n🖼**Quality** » `{raw_text2}`\n\n**Bot Developed by 𝐒tar AJ❤️**"
                         prog = await m.reply_text(Show)
                         
                         if "transcoded-videos-v2.classx.co.in" in url:
